@@ -17,7 +17,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link to={"/"}>
           <div className="text-white text-2xl font-bold hover:text-emerald-100 transition-colors">
-            Food Manga
+            FoTo
           </div>
         </Link>
 
@@ -56,6 +56,7 @@ const Navbar = () => {
                 Chat
               </Link>
             </div>
+            
           )}
           <div className="relative group">
             <Link
