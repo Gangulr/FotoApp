@@ -387,7 +387,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
                           onClick={cancelEdit}
                           className="px-3 py-1 text-sm text-gray-600 hover:bg-gray-100 rounded"
                         >
-                          Cancel
+                          Cancels
                         </button>
                         <button
                           onClick={() => handleUpdateComment(comment.id)}
