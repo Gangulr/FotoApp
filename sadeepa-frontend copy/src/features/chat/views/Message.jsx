@@ -45,7 +45,7 @@ const Message = ({
                 type="submit" 
                 className="bg-green-500 text-white px-3 py-1 rounded text-sm"
               >
-                Save
+                Saved
               </button>
               <button 
                 type="button" 
