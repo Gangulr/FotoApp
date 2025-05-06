@@ -190,7 +190,7 @@ const CreatePostModal = ({ onRefresh }) => {
 
           <div>
             <label className="block text-sm font-medium text-gray-700">
-              Media Files ({formData.medias.length}/3)
+              Media files ({formData.medias.length}/3)
             </label>
             <input
               type="file"
