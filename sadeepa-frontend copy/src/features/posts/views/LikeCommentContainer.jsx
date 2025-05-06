@@ -291,7 +291,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
           </span>
           <span className="flex items-center">
             <MessageCircle size={14} className="mr-1" />
-            {commentCount} Comments
+            {commentCount} Add Comments
           </span>
         </div>
         
@@ -319,7 +319,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
           className="flex items-center justify-center w-1/2 py-2 text-gray-500 rounded-md hover:bg-gray-100 transition"
         >
           <MessageCircle size={18} className="mr-2" />
-          Comment
+          Comments
         </button>
       </div>
       
