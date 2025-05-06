@@ -291,7 +291,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
           </span>
           <span className="flex items-center">
             <MessageCircle size={14} className="mr-1" />
-            {commentCount} comments
+            {commentCount} Comments
           </span>
         </div>
         
