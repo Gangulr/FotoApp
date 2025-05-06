@@ -461,7 +461,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
               ))
             ) : (
               <div className="text-center py-6 text-gray-500">
-                No comments yet. Be the first to comment!
+                No comments yet... Be the first to comment!
               </div>
             )}
             
