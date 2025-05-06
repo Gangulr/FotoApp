@@ -159,7 +159,7 @@ const CreatePostModal = ({ onRefresh }) => {
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="block text-sm font-medium text-gray-700">
-              Title
+              Titles
             </label>
             <input
               type="text"
@@ -248,7 +248,7 @@ const CreatePostModal = ({ onRefresh }) => {
               onClick={() => setIsOpen(false)}
               className="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500"
             >
-              Cancel
+              Cancell
             </button>
             <button
               type="submit"
