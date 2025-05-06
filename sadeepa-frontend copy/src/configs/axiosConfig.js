@@ -1,7 +1,8 @@
+// src/configs/axiosConfig.js
 import axios from "axios";
 
 const apiClient = axios.create({
-  baseURL: "http://localhost:8080/api",
+  baseURL: "http://localhost:8080/api", // KEEP /api here only
   withCredentials: false,
   headers: {
     Accept: "application/json",
@@ -9,6 +10,7 @@ const apiClient = axios.create({
   },
 });
 
+// Add Authorization header if token is present
 apiClient.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem("token");
@@ -22,6 +24,7 @@ apiClient.interceptors.request.use(
   }
 );
 
+// Handle 401 unauthorized responses globally
 apiClient.interceptors.response.use(
   (response) => response,
   (error) => {
