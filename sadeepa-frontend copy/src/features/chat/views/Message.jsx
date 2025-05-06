@@ -52,7 +52,7 @@ const Message = ({
                 onClick={onCancelEdit}
                 className="bg-gray-300 px-3 py-1 rounded text-sm"
               >
-                Cancel
+                Canceled
               </button>
             </div>
           </form>
