@@ -173,7 +173,7 @@ const CreatePostModal = ({ onRefresh }) => {
 
           <div>
             <label className="block text-sm font-medium text-gray-700">
-              Description
+              Add a Description
             </label>
             <textarea
               value={formData.description}
