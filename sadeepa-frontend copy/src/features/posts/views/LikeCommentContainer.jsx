@@ -311,7 +311,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
           }`}
         >
           <ThumbsUp size={18} className={`mr-2 ${isLiked ? "fill-current" : ""}`} />
-          Like
+          Likes
         </button>
         
         <button
