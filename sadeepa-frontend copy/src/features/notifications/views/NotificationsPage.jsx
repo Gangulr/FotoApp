@@ -138,7 +138,7 @@ const NotificationsPage = () => {
       ) : (
         <div className="text-center py-10">
           <Bell className="mx-auto text-gray-300" size={48} />
-          <p className="mt-4 text-gray-500">No notifications yet</p>
+          <p className="mt-4 text-gray-500">No Notification yet</p>
         </div>
       )}
     </div>
