@@ -291,7 +291,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
           </span>
           <span className="flex items-center">
             <MessageCircle size={14} className="mr-1" />
-            {commentCount} Add Comments
+            {commentCount} comments
           </span>
         </div>
         
@@ -311,7 +311,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
           }`}
         >
           <ThumbsUp size={18} className={`mr-2 ${isLiked ? "fill-current" : ""}`} />
-          Likes
+          Like
         </button>
         
         <button
@@ -319,7 +319,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
           className="flex items-center justify-center w-1/2 py-2 text-gray-500 rounded-md hover:bg-gray-100 transition"
         >
           <MessageCircle size={18} className="mr-2" />
-          Comments
+          Comment
         </button>
       </div>
       
@@ -387,7 +387,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
                           onClick={cancelEdit}
                           className="px-3 py-1 text-sm text-gray-600 hover:bg-gray-100 rounded"
                         >
-                          Cancels
+                          Cancel
                         </button>
                         <button
                           onClick={() => handleUpdateComment(comment.id)}
@@ -461,7 +461,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
               ))
             ) : (
               <div className="text-center py-6 text-gray-500">
-                No comments yet... Be the first to comment!
+                No comments yet. Be the first to comment!
               </div>
             )}
             

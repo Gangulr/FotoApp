@@ -4,7 +4,7 @@ const UserList = ({ users, selectedUser, onSelectUser }) => {
   return (
     <div className="h-full overflow-y-auto">
       <div className="p-4 bg-gradient-to-r from-green-400 to-green-500 text-white">
-        <h1 className="text-xl font-bold">Chat lists</h1>
+        <h1 className="text-xl font-bold">Chats</h1>
       </div>
 
       <div className="divide-y divide-gray-200">

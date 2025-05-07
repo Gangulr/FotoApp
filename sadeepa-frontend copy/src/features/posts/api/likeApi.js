@@ -26,7 +26,6 @@ export default {
     try {
       await apiClient.delete(`/likes/${postId}`, {
         headers: {
-          
           'User-ID': userId
         }
       });

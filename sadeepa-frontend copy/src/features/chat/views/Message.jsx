@@ -45,14 +45,14 @@ const Message = ({
                 type="submit" 
                 className="bg-green-500 text-white px-3 py-1 rounded text-sm"
               >
-                Saved
+                Save
               </button>
               <button 
                 type="button" 
                 onClick={onCancelEdit}
                 className="bg-gray-300 px-3 py-1 rounded text-sm"
               >
-                Canceled
+                Cancel
               </button>
             </div>
           </form>

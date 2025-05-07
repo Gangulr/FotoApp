@@ -118,7 +118,7 @@ const CreatePostModal = ({ onRefresh }) => {
         onClick={() => setIsOpen(true)}
         className="mb-12 w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500"
       >
-        Create new Post
+        Create New Post
       </button>
 
       <Modal
@@ -129,7 +129,7 @@ const CreatePostModal = ({ onRefresh }) => {
         overlayClassName="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center z-50"
       >
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-xl font-bold text-gray-900">Create Post</h2>
+          <h2 className="text-xl font-bold text-gray-900">Create New Post</h2>
           <button
             onClick={() => setIsOpen(false)}
             className="text-gray-400 hover:text-gray-500"
@@ -159,7 +159,7 @@ const CreatePostModal = ({ onRefresh }) => {
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="block text-sm font-medium text-gray-700">
-              Titles
+              Title
             </label>
             <input
               type="text"
