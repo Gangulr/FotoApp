@@ -466,7 +466,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
             )}
             
             {error.comments && (
-              <div className="text-center py-4 text-red-500">
+              <div className="text-center py-4 text-red-600">
                 {error.comments}
               </div>
             )}
