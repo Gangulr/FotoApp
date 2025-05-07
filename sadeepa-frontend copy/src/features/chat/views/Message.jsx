@@ -70,7 +70,7 @@ const Message = ({
                     onClick={() => onStartEdit(message.id)}
                     className="text-xs text-gray-500 hover:text-gray-700"
                   >
-                    Edit
+                    edit
                   </button>
                   <button 
                     onClick={() => onDelete(message.id)}
