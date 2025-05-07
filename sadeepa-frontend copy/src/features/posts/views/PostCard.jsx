@@ -70,7 +70,7 @@ const PostCard = ({ post, onUpdateClicked, onDeleteClicked }) => {
                   className="flex items-center w-full px-4 py-2 text-sm text-red-600 hover:bg-gray-100"
                 >
                   <Trash2 className="w-4 h-4 mr-2" />
-                  Delete Posts
+                  Delete Post
                 </button>
               </div>
             )}
