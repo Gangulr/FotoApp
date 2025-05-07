@@ -215,7 +215,7 @@ const UpdatePostModal = ({ onClose, open, selectedPost, onRefresh }) => {
 
           <div>
             <label className="block text-sm font-medium text-gray-700">
-              Description
+              Descriptions
             </label>
             <textarea
               value={formData.description}
