@@ -392,7 +392,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
                         <button
                           onClick={() => handleUpdateComment(comment.id)}
                           disabled={!editCommentContent.trim() || loading.editComment}
-                          className="px-3 py-1 text-sm bg-red-500 text-white rounded hover:bg-blue-600"
+                          className="px-3 py-1 text-sm bg-blue-500 text-white rounded hover:bg-blue-600"
                         >
                           {loading.editComment ? "Saving..." : "Save"}
                         </button>
