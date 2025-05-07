@@ -311,7 +311,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
           }`}
         >
           <ThumbsUp size={18} className={`mr-2 ${isLiked ? "fill-current" : ""}`} />
-          Likes
+          Like
         </button>
         
         <button
@@ -319,7 +319,7 @@ const LikeCommentContainer = ({ postId, postedUserId }) => {
           className="flex items-center justify-center w-1/2 py-2 text-gray-500 rounded-md hover:bg-gray-100 transition"
         >
           <MessageCircle size={18} className="mr-2" />
-          Comments
+          Comment
         </button>
       </div>
       
