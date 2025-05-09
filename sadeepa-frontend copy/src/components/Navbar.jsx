@@ -1,4 +1,4 @@
-import { Bell } from "lucide-react";
+import { Bell, Home, Package, TrendingUp, MessageCircle } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -6,7 +6,6 @@ const Navbar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   useEffect(() => {
-    // Check if userId exists in localStorage
     const userId = localStorage.getItem("userId");
     setIsLoggedIn(!!userId);
   }, []);
@@ -23,12 +22,14 @@ const Navbar = () => {
 
         {/* Navigation Items */}
         <div className="flex items-center space-x-8">
+          {/* Home Icon */}
           <div className="relative group">
             <Link
               to={"/"}
               className="text-emerald-50 hover:text-white transition-colors flex items-center"
             >
-              Posts
+              <Home className="mr-1" />
+              Home
             </Link>
           </div>
           <div className="relative group">
@@ -36,6 +37,7 @@ const Navbar = () => {
               to={"/plans"}
               className="text-emerald-50 hover:text-white transition-colors flex items-center"
             >
+              <Package className="mr-1" />
               Plans
             </Link>
           </div>
@@ -44,6 +46,7 @@ const Navbar = () => {
               to={"/progress"}
               className="text-emerald-50 hover:text-white transition-colors flex items-center"
             >
+              <TrendingUp className="mr-1" />
               Progresses
             </Link>
           </div>
@@ -53,10 +56,10 @@ const Navbar = () => {
                 to={"/chat"}
                 className="text-emerald-50 hover:text-white transition-colors flex items-center"
               >
+                <MessageCircle className="mr-1" />
                 Chat
               </Link>
             </div>
-            
           )}
           <div className="relative group">
             <Link

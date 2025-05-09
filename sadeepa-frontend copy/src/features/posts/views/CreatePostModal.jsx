@@ -114,19 +114,23 @@ const CreatePostModal = ({ onRefresh }) => {
 
   return (
     <>
-      <button
-        onClick={() => setIsOpen(true)}
-        className="mb-12 w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500"
-      >
-        Create New Post
-      </button>
+      <div className="flex justify-center">
+  <button
+    onClick={() => setIsOpen(true)}
+    className="mb-12 w-1/2 flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500"
+  >
+    Create a New Post
+  </button>
+</div>
+
 
       <Modal
         isOpen={isOpen}
         onRequestClose={() => setIsOpen(false)}
         contentLabel="Create Post Modal"
-        className="bg-white rounded-lg shadow-xl max-w-md w-full p-6 mx-auto mt-20 outline-none"
-        overlayClassName="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center z-50"
+        className="bg-gray-200 rounded-lg shadow-xl max-w-md w-full p-6 mx-auto mt-20 outline-none"
+        overlayClassName="fixed inset-0 bg-white bg-opacity-75 flex items-center justify-center z-50"
+
       >
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-bold text-gray-900">Create New Post</h2>

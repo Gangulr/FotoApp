@@ -21,9 +21,9 @@ import ChatHomePage from "./features/chat/views/ChatHomePage";
 
 const App = () => {
   return (
-    <div className="relative gradient-bg">
+    <div className="relative b">
       <BrowserRouter>
-        <div className="fixed pt-4 bg-green-100 top-0 left-0 right-0 z-[100] px-32">
+        <div className="fixed pt-4 bg-white top-0 left-0 right-0 z-[100] px-32">
           <Navbar />
         </div>
         <div className="px-32 py-16 w-screen mt-16 min-h-screen relative z-[1]">

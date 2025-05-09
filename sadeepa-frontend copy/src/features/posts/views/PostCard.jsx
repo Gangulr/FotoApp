@@ -18,7 +18,7 @@ const PostCard = ({ post, onUpdateClicked, onDeleteClicked }) => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md mb-6 overflow-hidden">
+    <div className="bg-gray-200 rounded-lg shadow-md mb-6 overflow-hidden">
       {/* Header */}
       <div className="p-4 flex items-center justify-between">
        <Link
